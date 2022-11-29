@@ -62,7 +62,9 @@ namespace ChaseLab4
         private void btnReset_Click(object sender, EventArgs e)
         {
             //this calls the ResetTrip function
+
             ResetTrip();
+
         }//end reset button event
         
         //this resets the textbox and selects the defaults
@@ -170,6 +172,7 @@ namespace ChaseLab4
 
                 //these are variables to display the info for the trip
                 string book = "Booked by Brayden Chase" + "\n\n" +
+
                     "People: " + people.ToString("d2") + "\n" +
                     "Location: " + location.ToUpper() + "\n";
                 string dspPrice = "Price: " + lblPrice.Text;
